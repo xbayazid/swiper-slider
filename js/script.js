@@ -18,10 +18,6 @@ $(document).ready(function(){
             type: 'fraction',
           },
 
-          scrollbar: {
-            el: '.swiper-scrollbar',
-            hide: true,
-          },
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
