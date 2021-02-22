@@ -40,12 +40,12 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.btn{
 
-}
 .btn-common{
+    width: 120px;
    font-size: 14px;
    margin-right: 15px;
+   margin-bottom: 10px;
    display: inline-block;
    padding: 5px 30px;
    border-radius: 5px;
@@ -68,3 +68,12 @@ a{
     background: rgba(255, 255, 255, 0.3);
 }
 
+@media screen and (max-width: 575.98px){
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
